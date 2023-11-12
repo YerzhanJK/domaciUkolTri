@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Lists</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="lists-container">
+            <h2>Shopping Lists</h2>
+            <ul id="lists"></ul>
+            <form id="newListForm">
+                <label for="newListInput">Create a new list:</label>
+                <input type="text" id="newListInput" required>
+                <button type="submit">Create</button>
+            </form>
+        </div>
+        <div class="products-container">
+            <h2>Product Catalog</h2>
+            <ul id="products"></ul>
+            <form id="newProductForm">
+                <label for="newProductInput">Add Product to Catalog:</label>
+                <input type="text" id="newProductInput" required>
+                <button type="submit">Add</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
